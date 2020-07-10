@@ -1,0 +1,21 @@
+@import "settings"; 
+@import "mixin";
+#header {
+    position: relative;
+    width: 100%;
+    padding: 15px 0 0;
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+        border-bottom: 5px solid $main-color;
+    }
+    .logo {
+        display: block;
+        margin-bottom: 6px;
+        max-width: 165px;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
